@@ -1,0 +1,100 @@
+2020-10-14T00:47:42.519919+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=defciberac3python.herokuapp.com request_id=2058e4fb-49e8-4865-8b68-41edf39f0e9c fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T00:47:42.838065+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=defciberac3python.herokuapp.com request_id=183b664b-e1b5-4009-80d6-06331409a1d1 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T00:59:03.000000+00:00 app[api]: Build started by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T00:59:26.255015+00:00 app[api]: Deploy 1f58c301 by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T00:59:26.255015+00:00 app[api]: Release v7 created by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T00:59:27.072585+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T00:59:30.290767+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T00:59:32.241768+00:00 app[web.1]: File "t8.py", line 20
+2020-10-14T00:59:32.241783+00:00 app[web.1]: for i in range(2, numero):
+2020-10-14T00:59:32.241793+00:00 app[web.1]: ^
+2020-10-14T00:59:32.241794+00:00 app[web.1]: IndentationError: unexpected indent
+2020-10-14T00:59:32.287821+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T00:59:32.328109+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T00:59:32.329969+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T00:59:34.000000+00:00 app[api]: Build succeeded
+2020-10-14T00:59:35.315148+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T00:59:37.369556+00:00 app[web.1]: File "t8.py", line 20
+2020-10-14T00:59:37.369580+00:00 app[web.1]: for i in range(2, numero):
+2020-10-14T00:59:37.369581+00:00 app[web.1]: ^
+2020-10-14T00:59:37.369612+00:00 app[web.1]: IndentationError: unexpected indent
+2020-10-14T00:59:37.449576+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T00:59:37.491821+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T00:59:47.060155+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=defciberac3python.herokuapp.com request_id=26700601-486f-4078-a0b8-53b1540ed597 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T00:59:47.355560+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=defciberac3python.herokuapp.com request_id=93f8a67f-6c3d-4b20-80cd-ff24f329c853 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:07:09.000000+00:00 app[api]: Build started by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:07:34.745002+00:00 app[api]: Deploy 68a79c6f by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:07:34.745002+00:00 app[api]: Release v8 created by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:07:35.354946+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T01:07:38.837368+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T01:07:42.406903+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T01:07:42.406927+00:00 app[web.1]: File "t8.py", line 7, in <module>
+2020-10-14T01:07:42.407230+00:00 app[web.1]: @app.router('/')
+2020-10-14T01:07:42.407340+00:00 app[web.1]: AttributeError: 'Flask' object has no attribute 'router'
+2020-10-14T01:07:42.497157+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T01:07:42.549862+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T01:07:43.000000+00:00 app[api]: Build succeeded
+2020-10-14T01:08:58.808212+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=defciberac3python.herokuapp.com request_id=2917c72e-4ac3-44e8-8789-c7d7e86793be fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:08:59.034266+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=defciberac3python.herokuapp.com request_id=0da7c5d9-2dba-4dbe-9649-dda22d5938de fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:17:41.000000+00:00 app[api]: Build started by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:18:05.666199+00:00 app[api]: Release v9 created by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:18:05.666199+00:00 app[api]: Deploy dbc0b431 by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:18:05.868284+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T01:18:08.692996+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T01:18:11.193571+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T01:18:11.193586+00:00 app[web.1]: File "t8.py", line 7, in <module>
+2020-10-14T01:18:11.193696+00:00 app[web.1]: @app.router('/')
+2020-10-14T01:18:11.193723+00:00 app[web.1]: AttributeError: 'Flask' object has no attribute 'router'
+2020-10-14T01:18:11.258952+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T01:18:11.294201+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T01:18:11.296053+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T01:18:14.000000+00:00 app[api]: Build succeeded
+2020-10-14T01:18:15.278580+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T01:18:18.960705+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T01:18:18.960720+00:00 app[web.1]: File "t8.py", line 7, in <module>
+2020-10-14T01:18:18.960965+00:00 app[web.1]: @app.router('/')
+2020-10-14T01:18:18.961059+00:00 app[web.1]: AttributeError: 'Flask' object has no attribute 'router'
+2020-10-14T01:18:19.039620+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T01:18:19.082136+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T01:18:39.390732+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=defciberac3python.herokuapp.com request_id=40fd2cc6-4902-4d39-8590-17a27a633a67 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:18:39.628718+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=defciberac3python.herokuapp.com request_id=3e5e900f-4cc9-4b25-b633-622154fa2b73 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:49:19.559820+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=defciberac3python.herokuapp.com request_id=71bcbdc5-d11c-4a7a-94b1-96d280e6ff6d fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:49:19.880486+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=defciberac3python.herokuapp.com request_id=d5a7431a-36ab-4a24-be39-1c0215e6eb4f fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:49:37.369450+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T01:49:40.458822+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T01:49:43.254837+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T01:49:43.254861+00:00 app[web.1]: File "t8.py", line 7, in <module>
+2020-10-14T01:49:43.255016+00:00 app[web.1]: @app.router('/')
+2020-10-14T01:49:43.255094+00:00 app[web.1]: AttributeError: 'Flask' object has no attribute 'router'
+2020-10-14T01:49:43.334282+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T01:49:43.388428+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T01:55:49.000000+00:00 app[api]: Build started by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:56:12.026049+00:00 app[api]: Deploy 86a8268e by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:56:12.026049+00:00 app[api]: Release v10 created by user jose.teixeira@aluno.faculdadeimpacta.com.br
+2020-10-14T01:56:12.278780+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T01:56:15.251550+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T01:56:17.747072+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T01:56:17.747093+00:00 app[web.1]: File "t8.py", line 34, in <module>
+2020-10-14T01:56:17.747215+00:00 app[web.1]: port  =  int(os.amb.get("PORT" , 5000))
+2020-10-14T01:56:17.747237+00:00 app[web.1]: AttributeError: module 'os' has no attribute 'amb'
+2020-10-14T01:56:17.801880+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T01:56:17.848930+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T01:56:20.000000+00:00 app[api]: Build succeeded
+2020-10-14T01:56:48.258844+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=defciberac3python.herokuapp.com request_id=dbb640eb-6f6d-4e6a-a73f-b64bd3fbcaf0 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T01:56:53.505424+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=defciberac3python.herokuapp.com request_id=d76d194f-5b3a-4d43-a873-89fa7546ad39 fwd="177.68.60.214" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T02:00:39.597151+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T02:00:43.711443+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T02:00:45.859807+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T02:00:45.859849+00:00 app[web.1]: File "t8.py", line 34, in <module>
+2020-10-14T02:00:45.859966+00:00 app[web.1]: port  =  int(os.amb.get("PORT" , 5000))
+2020-10-14T02:00:45.860033+00:00 app[web.1]: AttributeError: module 'os' has no attribute 'amb'
+2020-10-14T02:00:45.925713+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T02:00:45.967009+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T02:36:58.794595+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T02:37:01.862991+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T02:37:04.490413+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-14T02:37:04.490443+00:00 app[web.1]: File "t8.py", line 34, in <module>
+2020-10-14T02:37:04.490563+00:00 app[web.1]: port  =  int(os.amb.get("PORT" , 5000))
+2020-10-14T02:37:04.490570+00:00 app[web.1]: AttributeError: module 'os' has no attribute 'amb'
+2020-10-14T02:37:04.547448+00:00 heroku[web.1]: Process exited with status 1
+2020-10-14T02:37:04.582717+00:00 heroku[web.1]: State changed from starting to crashed
