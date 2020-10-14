@@ -98,3 +98,19 @@
 2020-10-14T02:37:04.490570+00:00 app[web.1]: AttributeError: module 'os' has no attribute 'amb'
 2020-10-14T02:37:04.547448+00:00 heroku[web.1]: Process exited with status 1
 2020-10-14T02:37:04.582717+00:00 heroku[web.1]: State changed from starting to crashed
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? [A[A[A[B[B
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? [A[A[A[A[A[A[B[B[B
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? [A[A[A[A[A[A[3~[3~[3~[3~[3~[C[C[C
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
+Deseja finalizar o arquivo em lotes (S/N)? 
